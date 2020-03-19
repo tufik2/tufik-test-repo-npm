@@ -1,8 +1,6 @@
-export function log(values){ try{ var args = arguments; for(var i = 0; i < args.length; i++){ console.log(args[i]); } }catch(err){ }; };
-export const cuppa = { debug:false };
-
+export function Log(values){ try{ var args = arguments; for(var i = 0; i < args.length; i++){ console.log(args[i]); } }catch(err){ }; };
 /* bindAll */
-cuppa.bindAll = function(element, isFunction){
+export function BindAll(element, isFunction){
     var propertyNames = Object.getOwnPropertyNames(Object.getPrototypeOf(element));
     if(isFunction)  propertyNames = Object.keys(element);
     for(var i = 0; i < propertyNames.length; i++){

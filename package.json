@@ -1,9 +1,10 @@
 {
   "name": "tufik-test-repo-npm-git",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
+    "start":"npm-cli-login -u tufik2 -p Toro01** -e tufik2@gmail.com -r & npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
